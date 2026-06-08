@@ -1,16 +1,19 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    // функция для запуска
+    public void PlayGame()
     {
-        
+        // загружает следующую сцену по индексу (1 - это будет наша игровая сцена)
+        SceneManager.LoadScene(1);
     }
 
-    // Update is called once per frame
-    void Update()
+    // функция для выхода
+    public void ExitGame()
     {
-        
+        Debug.Log("Игрок нажал ВЫХОД");
+        Application.Quit(); // закрывает игру
     }
 }
