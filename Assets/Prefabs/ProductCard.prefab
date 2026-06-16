@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5605263931726852490}
   - component: {fileID: 1528004714443308933}
   - component: {fileID: 954544793682398331}
+  - component: {fileID: 3131754981757243241}
   m_Layer: 5
   m_Name: ProductCard
   m_TagString: Untagged
@@ -147,6 +148,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &3131754981757243241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3545290460897873460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f1907d7a4aa564c9d664ca07e523f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  concreteSound: {fileID: 8300000, guid: 1c2d483eca352cb47b21978e3655a886, type: 3}
 --- !u!1 &8548567779840941413
 GameObject:
   m_ObjectHideFlags: 0
