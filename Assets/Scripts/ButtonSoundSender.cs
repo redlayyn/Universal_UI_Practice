@@ -15,7 +15,7 @@ public class ButtonSoundSender : MonoBehaviour
         }
     }
 
-    private void SendToAudioManager()
+    public void SendToAudioManager()
     {
         if (AudioManager.instance != null)
         {
