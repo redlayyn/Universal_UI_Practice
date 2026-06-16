@@ -2528,13 +2528,13 @@ AudioSource:
   m_GameObject: {fileID: 2034947751}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 8954633721333355830, guid: 9ec572c4dd611d447b31397fbef7cda7, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 1c2d483eca352cb47b21978e3655a886, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
